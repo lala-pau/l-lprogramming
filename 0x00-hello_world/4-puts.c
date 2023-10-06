@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-/*This program prints out a quote aboutf text about programming*/
+/**
+ *main - puts command use
+ *This program prints out a quote about text about programming
+ *Return: 0
+ */
 
 int main(void)
 {
