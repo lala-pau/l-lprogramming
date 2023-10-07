@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  *main - prints upper and lowercase alphabet
@@ -6,14 +7,12 @@
  */
 int main (void)
 {
-	int lower;
-	int upper;
-	
+	int x;
+
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		putchar(x)
-
+		putchar(x);
+		putchar(toupper(x));
 	}
-
-
+	return (0);
 }
