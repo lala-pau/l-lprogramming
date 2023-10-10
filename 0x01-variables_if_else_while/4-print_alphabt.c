@@ -8,11 +8,12 @@ int main(void)
 {
 	int x;
 
-	for (x = 'a'; x <= 'z'; x++)
-	{
+	x = 0;
+	do {
+		
 		putchar(x);
-		while (x != 'q' || x != 'e')
-	}
+		x++;
+	}while (x != 'q' || x != 'e');
 	putchar('\n');
 	return (0);
 }
