@@ -2,7 +2,7 @@
 
 /**
  *_abs - displays absolute value of input
- *@int: value entered
+ *@i: value entered
  *Return: result of abs
  */
 int _abs(int i)
