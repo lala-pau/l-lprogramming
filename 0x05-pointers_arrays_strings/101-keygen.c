@@ -11,8 +11,9 @@ int main(void)
 {
 	int sum;
 	char z;
+	void *nullptr = 0;
 
-	srand(time(NULL));
+	srand(time(nullptr));
 	sum = 0;
 	while (sum <= 2645)
 	{
