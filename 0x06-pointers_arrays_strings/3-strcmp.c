@@ -2,10 +2,9 @@
 
 /**
  * _strcmp - compares two strings
- * @s1: input parameter
- * @s2: input parameter
- *
- * Return: 0 if equal or b if is different
+ * @s1: parameter
+ * @s2: parameter
+ * Return: value of b
  */
 
 int _strcmp(char *s1, char *s2)
