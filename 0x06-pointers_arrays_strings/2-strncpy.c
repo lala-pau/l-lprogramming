@@ -5,11 +5,10 @@
  * @dest: array that returns
  * @src: the pointer that receive the string
  * @n: times to interate
- *
  * Return: the parameter dest.
  */
 
-char *strncopy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
