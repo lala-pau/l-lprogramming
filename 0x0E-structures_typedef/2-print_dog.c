@@ -1,9 +1,10 @@
 #include "dog.h"
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
-  * print_dog - Prints name, age, and owner if not null.
-  * @d: is pointer to struct dog.
+  * print_dog - Prints name, age, and owner if not 'NULL'
+  * @d: pointer to struct dog.
   **/
 
 void print_dog(struct dog *d)
@@ -23,11 +24,10 @@ void print_dog(struct dog *d)
 	}
 
 	printf("Age: %f\n", d->age);
-	
 
 	if (d->owner == NULL)
 	{
-		printf("(nil)\n");
+		printf("Owner: (nil)\n");
 	}
 	else
 	{
